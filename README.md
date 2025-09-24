@@ -1,5 +1,5 @@
 # mov2mp4
-Script que convierte `.mov` a `.mp4` usando ffmpeg (vía subprocess)
+Script que convierte `.mov` a `.mp4` usando **ffmpeg** (vía subprocess)
 
 ## Cómo usarlo
 
@@ -23,7 +23,7 @@ Requisito: tener **ffmpeg** instalado y en el PATH.
 
 `python mov2mp4.py /ruta/a/carpeta --recursive`
 
-* Pasar flags extra directamente a ffmpeg (lo que se ponga después de `--extra` se pasa tal cual):
+* Pasar flags extra directamente a **ffmpeg** (lo que se ponga después de `--extra` se pasa tal cual):
 
 `python mov2mp4.py entrada.mov --extra -vf scale=1280:-2`
 
